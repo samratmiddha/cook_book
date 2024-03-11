@@ -1,0 +1,264 @@
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "A classic Italian pasta dish made with eggs, cheese, bacon, and black pepper. Creamy and indulgent, this comforting meal is perfect for cozy dinners at home.",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Bacon",
+      "Black pepper",
+      "Salt"
+    ],
+    "steps": [
+      "Cook spaghetti according to package instructions.",
+      "Fry bacon until crispy, then chop into pieces.",
+      "Mix eggs with grated Parmesan cheese and black pepper.",
+      "Combine cooked spaghetti with bacon and egg mixture, stirring until creamy and well-coated.",
+      "Serve hot with additional grated Parmesan cheese and black pepper."
+    ],
+    "image": "images/spaghetti_carbonara.jpg"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "description": "A popular Indian dish featuring grilled chicken in a creamy tomato-based sauce. Rich and flavorful, this dish is best enjoyed with fluffy basmati rice and warm naan bread.",
+    "ingredients": [
+      "Chicken breast",
+      "Yogurt",
+      "Garam masala",
+      "Tomato sauce",
+      "Cream",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Cilantro",
+      "Rice"
+    ],
+    "steps": [
+      "Marinate chicken breast in yogurt and garam masala, then grill until cooked through.",
+      "In a separate pan, sauté onion, garlic, and ginger until fragrant.",
+      "Add tomato sauce and cream to the pan, then simmer until thickened.",
+      "Add grilled chicken to the sauce, stirring until well-coated.",
+      "Serve hot over rice, garnished with chopped cilantro."
+    ],
+    "image": "images/chicken_tikka_masala.jpg"
+  },
+  {
+    "title": "Caprese Salad",
+    "description": "A simple Italian salad made with fresh tomatoes, mozzarella cheese, basil, and olive oil. Light and refreshing, this salad is a perfect appetizer or side dish for any meal.",
+    "ingredients": [
+      "Tomatoes",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Balsamic vinegar",
+      "Salt",
+      "Black pepper"
+    ],
+    "steps": [
+      "Slice tomatoes and mozzarella cheese into thick slices.",
+      "Arrange tomato and mozzarella slices on a plate, alternating with basil leaves.",
+      "Drizzle with olive oil and balsamic vinegar.",
+      "Season with salt and black pepper to taste.",
+      "Serve immediately as a refreshing appetizer."
+    ],
+    "image": "images/caprese_salad.jpg"
+  },
+  {
+    "title": "Vegetable Stir-Fry",
+    "description": "A quick and healthy dish featuring a variety of vegetables stir-fried in a savory sauce. Colorful and packed with nutrients, this stir-fry is perfect for busy weeknights.",
+    "ingredients": [
+      "Broccoli",
+      "Bell peppers",
+      "Carrots",
+      "Snap peas",
+      "Mushrooms",
+      "Garlic",
+      "Ginger",
+      "Soy sauce",
+      "Sesame oil",
+      "Rice"
+    ],
+    "steps": [
+      "Heat sesame oil in a wok or large skillet over high heat.",
+      "Add minced garlic and ginger, stirring until fragrant.",
+      "Add chopped vegetables to the wok, starting with the ones that take longest to cook.",
+      "Stir-fry vegetables until tender-crisp.",
+      "Add soy sauce to taste, stirring until vegetables are evenly coated.",
+      "Serve hot over rice."
+    ],
+    "image": "images/vegetable_stir_fry.jpg"
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "description": "Classic homemade cookies loaded with chocolate chips for a sweet treat. Crispy on the edges and chewy in the middle, these cookies are perfect with a glass of milk.",
+    "ingredients": [
+      "All-purpose flour",
+      "Butter",
+      "Brown sugar",
+      "Granulated sugar",
+      "Egg",
+      "Vanilla extract",
+      "Baking soda",
+      "Salt",
+      "Chocolate chips"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream together butter, brown sugar, and granulated sugar until light and fluffy.",
+      "Beat in egg and vanilla extract.",
+      "In a separate bowl, whisk together flour, baking soda, and salt.",
+      "Gradually add dry ingredients to wet ingredients, mixing until combined.",
+      "Fold in chocolate chips.",
+      "Drop spoonfuls of dough onto a baking sheet lined with parchment paper.",
+      "Bake for 8-10 minutes, or until edges are golden brown.",
+      "Cool on the baking sheet for a few minutes before transferring to a wire rack to cool completely."
+    ],
+    "image": "images/chocolate_chip_cookies.jpg"
+  },
+  {
+    "title": "Caesar Salad",
+    "description": "A classic salad made with crisp romaine lettuce, garlic croutons, Parmesan cheese, and tangy Caesar dressing. This salad is a crowd-pleaser and makes a great side dish for any meal.",
+    "ingredients": [
+      "Romaine lettuce",
+      "Garlic croutons",
+      "Parmesan cheese",
+      "Caesar dressing",
+      "Lemon juice",
+      "Olive oil",
+      "Anchovy paste",
+      "Dijon mustard"
+    ],
+    "steps": [
+      "In a large bowl, toss together romaine lettuce and garlic croutons.",
+      "In a small bowl, whisk together Caesar dressing, lemon juice, olive oil, anchovy paste, and Dijon mustard.",
+      "Drizzle dressing over salad, tossing until evenly coated.",
+      "Top with shaved Parmesan cheese and serve immediately."
+    ],
+    "image": "images/caesar_salad.webp"
+  },
+  {
+    "title": "Margherita Pizza",
+    "description": "A classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil. Simple yet delicious, this pizza is a favorite for pizza lovers everywhere.",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "steps": [
+      "Preheat oven to 475°F (245°C).",
+      "Roll out pizza dough into a round shape on a floured surface.",
+      "Spread tomato sauce evenly over the pizza dough.",
+      "Tear fresh mozzarella cheese into pieces and arrange on top of the sauce.",
+      "Top with fresh basil leaves, drizzle with olive oil, and season with salt and black pepper.",
+      "Bake for 10-12 minutes, or until crust is golden brown and cheese is bubbly.",
+      "Slice and serve hot."
+    ],
+    "image": "images/margherita_pizza.jpg"
+  },
+  {
+    "title": "Guacamole",
+    "description": "A flavorful dip made with ripe avocados, tomatoes, onions, cilantro, lime juice, and spices. Creamy and tangy, this guacamole is perfect for dipping tortilla chips or as a topping for tacos and burritos.",
+    "ingredients": [
+      "Ripe avocados",
+      "Tomatoes",
+      "Onion",
+      "Cilantro",
+      "Lime juice",
+      "Garlic",
+      "Salt",
+      "Black pepper",
+      "Cumin",
+      "Tortilla chips"
+    ],
+    "steps": [
+      "In a bowl, mash ripe avocados with a fork until smooth.",
+      "Stir in chopped tomatoes, onions, cilantro, and minced garlic.",
+      "Add lime juice, salt, black pepper, and cumin, adjusting seasoning to taste.",
+      "Cover and refrigerate for at least 30 minutes to allow flavors to meld.",
+      "Serve cold with tortilla chips."
+    ],
+    "image": "images/guacamole.jpg"
+  },
+  {
+    "title": "Mushroom Risotto",
+    "description": "A creamy and comforting Italian rice dish made with Arborio rice, mushrooms, onions, garlic, white wine, and Parmesan cheese. This hearty risotto is perfect for a cozy dinner at home.",
+    "ingredients": [
+      "Arborio rice",
+      "Mushrooms",
+      "Onion",
+      "Garlic",
+      "White wine",
+      "Chicken broth",
+      "Parmesan cheese",
+      "Butter",
+      "Olive oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "steps": [
+      "In a large saucepan, heat olive oil and butter over medium heat.",
+      "Add chopped onion and minced garlic, sautéing until softened.",
+      "Add Arborio rice, stirring until coated in oil and slightly toasted.",
+      "Deglaze the pan with white wine, stirring until absorbed.",
+      "Gradually add chicken broth, one ladleful at a time, stirring constantly until rice is creamy and cooked through.",
+      "Stir in sautéed mushrooms and grated Parmesan cheese.",
+      "Season with salt and black pepper to taste.",
+      "Serve hot, garnished with additional Parmesan cheese."
+    ],
+    "image": "images/mushroom_risotto.jpg"
+  },
+  {
+    "title": "Pancakes",
+    "description": "Fluffy and delicious pancakes made with flour, milk, eggs, sugar, baking powder, and vanilla extract. These classic breakfast treats are perfect for a leisurely weekend brunch with family and friends.",
+    "ingredients": [
+      "All-purpose flour",
+      "Milk",
+      "Eggs",
+      "Sugar",
+      "Baking powder",
+      "Salt",
+      "Butter",
+      "Vanilla extract",
+      "Maple syrup",
+      "Fresh berries"
+    ],
+    "steps": [
+      "In a bowl, whisk together flour, sugar, baking powder, and salt.",
+      "In another bowl, beat eggs, then stir in milk, melted butter, and vanilla extract.",
+      "Gradually add wet ingredients to dry ingredients, mixing until smooth.",
+      "Heat a lightly greased skillet or griddle over medium heat.",
+      "Pour batter onto the skillet, using about 1/4 cup for each pancake.",
+      "Cook until bubbles form on the surface, then flip and cook until golden brown.",
+      "Serve hot with maple syrup and fresh berries."
+    ],
+    "image": "images/pancakes.jpg"
+  },
+  {
+    "title": "Beef Tacos",
+    "description": "A Tex-Mex favorite featuring seasoned ground beef, crispy taco shells, and all the classic toppings like lettuce, tomato, cheese, and sour cream. These tacos are perfect for a quick and easy weeknight dinner.",
+    "ingredients": [
+      "Ground beef",
+      "Taco seasoning",
+      "Taco shells",
+      "Lettuce",
+      "Tomato",
+      "Cheese",
+      "Sour cream",
+      "Avocado",
+      "Salsa"
+    ],
+    "steps": [
+      "In a skillet, cook ground beef over medium heat until browned and cooked through.",
+      "Stir in taco seasoning and water, simmering until thickened.",
+      "Meanwhile, warm taco shells according to package instructions.",
+      "Assemble tacos by filling each shell with seasoned beef, lettuce, tomato, cheese, sour cream, and salsa.",
+      "Serve immediately with sliced avocado on the side."
+    ],
+    "image": "images/beef_tacos.jpg"
+  }
+]
