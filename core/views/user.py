@@ -50,7 +50,8 @@ def whoami(request):
 def logout_user(request):
     if request.user.is_authenticated:
         logout(request)
-        return Response({"user logged out Successfully"})
+        return Response({'message':"user logged out Successfully"},status=HTTP_200_OK)
+    return Response({'message':"user already logged out"},status=HTTP_200_OK)
     
 @api_view(['POST'])
 def sign_up(request):
