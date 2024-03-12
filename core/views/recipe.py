@@ -36,7 +36,8 @@ class RecipeViewset(viewsets.ModelViewSet):
     def search(self,request):
         value = request.GET.get('value')
         public_recipes = Recipe.objects.filter(is_public=True)
-        user_private_recipes = Recipe.objects.filter(is_public=False, owner=request.user)
+
+        user_private_recipes = Recipe.objects.filter(is_public=False, owner=request.user.id)
 
         if value:
             public_recipes = public_recipes.filter(
