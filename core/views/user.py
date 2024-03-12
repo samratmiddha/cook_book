@@ -72,7 +72,9 @@ def sign_up(request):
       return Response({"message":"User already exists"},status=HTTP_400_BAD_REQUEST)
     except User.DoesNotExist:
         try:
-            user=User.objects.create(username=username,password=password,first_name=first_name, last_name=last_name,email=email)
+            user=User.objects.create(username=username,first_name=first_name, last_name=last_name,email=email)
+            user.set_password(password)
+            user.save()
             login(request, user)
             serializer=UserSerializer(user)
             return Response(serializer.data,status=HTTP_201_CREATED)
