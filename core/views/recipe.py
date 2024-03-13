@@ -7,6 +7,7 @@ from rest_framework.response import Response
 from rest_framework.status import HTTP_200_OK
 from rest_framework.decorators import action,permission_classes
 from rest_framework import filters
+from core.permissions import CanRetrieveRecipe,IsRecipeOwner
 
 
 
@@ -15,13 +16,24 @@ class RecipeViewset(viewsets.ModelViewSet):
     queryset=Recipe.objects.all()
     permission_classes=[]
     filter_backends = [filters.SearchFilter]
-    search_fields = ['titile', 'ingredients']
+    search_fields = ['title', 'ingredients']
 
     def get_serializer_class(self):
         if self.action in ["list","retrieve"]:
             return RecipeDetailSerializer
         else:
             return RecipeSerializer
+        
+    def get_permissions(self):
+        if self.action in ["list", "search"]:
+            return []
+        elif self.action == "retrieve":
+            return [CanRetrieveRecipe()]
+        elif self.action == "create":
+            return [IsAuthenticated()]
+        else:
+            return [IsAuthenticated(), IsRecipeOwner()]
+        
         
     def list(self,request):
         public_recipes=Recipe.objects.filter(is_public=True)

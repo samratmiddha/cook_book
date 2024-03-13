@@ -5,13 +5,14 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.decorators import api_view,permission_classes
 from django.contrib.auth import login,authenticate,logout
+from core.permissions import IsSelf
 from rest_framework.status import HTTP_200_OK,HTTP_400_BAD_REQUEST,HTTP_401_UNAUTHORIZED,HTTP_201_CREATED,HTTP_500_INTERNAL_SERVER_ERROR
 
 
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset=User.objects.all()
-    permission_classes=[IsAuthenticated]
+    permission_classes=[IsAuthenticated,IsSelf]
 
     def get_serializer_class(self):
         if self.action == "list":
@@ -39,6 +40,7 @@ def login_user(request):
     
 
 @api_view(['GET'])
+@permission_classes([])
 def whoami(request):
     if request.user.is_authenticated:
         user_data=UserFavouritesSerializer(request.user).data
@@ -54,6 +56,7 @@ def logout_user(request):
     return Response({'message':"user already logged out"},status=HTTP_200_OK)
     
 @api_view(['POST'])
+@permission_classes([])
 def sign_up(request):
     email=request.data.get('email')
     username=request.data.get('username')
